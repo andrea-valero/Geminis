@@ -1,0 +1,408 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+header{
+    height: 75px;
+    width: 100%;
+    padding:  12px 0px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+  background-color: black; 
+   
+}
+header ul  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+   
+}
+   
+   
+   
+header .menu-item a{
+    color:white;
+    font-size: 20px;
+    padding: 0px 14px;
+    text-decoration: none;
+}
+header .logo a{
+    
+    font-family: 'Playball', cursive;
+    font-size: 30px;
+    padding: 0px 16px;
+    color:white;
+    text-decoration:none;
+}
+#bannerbienvenida{
+background-image:url(./multimedia/imagenes/fondo.jpg);
+background-repeat: no-repeat;
+background-size:cover;
+padding: 250px 0px;
+}
+#bannerbienvenida h1{
+    
+   
+    font-size: 40px;
+  color:black;
+  margin-bottom: 30px 10px;
+}
+#bannerbienvenida p{
+    font-size: 20px 40px;
+    margin-bottom: 30px;
+    width: 50px;
+
+}
+#bannerbienvenida a{
+    color:black;
+    background-color: bisque;
+    font-size: 80px 30px;
+    font-weight: 600px;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+
+}
+footer{
+    color: white;
+    background-color: black;
+    font-size: 14px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.contenedorsucursales{
+
+    background-image: url(./multimedia/imagenes/map.png);
+    padding: 250px 0px;
+    color: white;
+    
+}
+.contenedorsucursales h2{
+
+   background-color: black;
+    font-family: 'Playball', cursive;
+    font-size: 30px;
+    margin: 0px;
+    border: 0px;
+    padding: 20px 16px;
+    color:white;
+    text-decoration:none;
+    display: flex;
+    justify-content:center;
+align-items: center;
+}
+.contenedorsucursales ul{
+    background-color: black;
+    font-size: 30px ;
+    margin: 50px 50px;
+    border: 50px 50px;
+    padding: 50px 16 px;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   display: flex;
+   justify-content: space-between;
+}
+ 
+
+
+.sobrenosotros h1{ 
+    background-color: black;
+    font-family: 'Playball', cursive;
+    font-size: 30px;
+    margin: 50px 50px;
+    border: 50px 50px;
+    padding: 40px 16px;
+    color:white;
+    text-decoration:none;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.sobrenosotros p{
+    margin: 50px 50px;
+    border: 50px 50px;
+    padding:40px 40px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.sobrenosotrosimg img{
+display: flex;
+flex-direction: row;
+width: 250px;
+padding:  10px;
+
+margin: 10px;
+}
+.preguntasfrecuentes ul{
+    font-family: 'Playball', cursive;
+    margin: 50px 50px;
+    border: 50px 50px;
+    padding:40px 40px;
+    font-size: 30px;
+}
+.preguntasfrecuentes p{
+    margin: 50px 50px;
+    border: 50px 50px;
+    padding:40px 40px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.trabajaconnostros input{ 
+    font-family: 'Playball', cursive;
+    font-size: 35px;
+}
+
+.trabajaconnostros ul{
+    
+    font-family: 'Playball', cursive;
+    margin: 50px 50px;
+    border: 50px 50px;
+    padding:40px 40px;
+    font-size: 30px;
+
+}
+ 
+
+div a{ 
+    
+    color:black;
+    font-size: 40px ;
+    font-weight: 200px;
+    width: 150px;
+    height: 40px;
+    margin: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color:beige;
+       
+}
+
+.producto-u{
+    width: 250px;
+    padding:  10px;
+    text-align: center;
+    margin: 10px;
+
+} 
+ 
+
+.producto-u img{
+    width: 250px;
+    padding: 10px 10px;
+       height: 250px
+    
+}
+ 
+.producto-u h2{
+    font-size: 18px;
+    margin: 10px 0px;
+
+}
+.producto-u p{
+    font-size: 14px;
+    margin: 5px 0px;
+}
+.producto-u button{
+    background-color: rgb(7, 5, 5);
+    color: bisque;
+    padding:  5px;
+    border: none;
+    cursor: pointer;
+}
+.producto-contenedor{
+    display: flex;
+    flex-direction: row;
+   
+    
+}
+   
+
+    
+
+.producto-card{
+    width: 250px;
+    padding:  10px;
+    text-align: center;
+    margin: 10px;
+
+} 
+ 
+
+.producto-card img{
+    width: 250px;
+ padding: 10px 10px;
+    height: 250px
+    
+}
+ 
+.producto-card h2{
+    font-size: 18px;
+    margin: 10px 0px;
+
+}
+.producto-card p{
+    font-size: 14px;
+    margin: 5px 0px;
+}
+.producto-card button{
+    background-color: rgb(7, 5, 5);
+    color: bisque;
+    padding:  5px;
+    border: none;
+    cursor: pointer;
+}
+
+
+   
+
+.producto-s{
+    width: 250px;
+    padding:  10px;
+    text-align: center;
+    margin: 10px;
+
+} 
+ 
+
+.producto-s img{
+    width: 250px;
+    padding: 10px 10px;
+       height: 250px
+    
+}
+ 
+.producto-s h2{
+    font-size: 18px;
+    margin: 10px 0px;
+
+}
+.producto-s p{
+    font-size: 14px;
+    margin: 5px 0px;
+}
+.producto-s button{
+    background-color: rgb(7, 5, 5);
+    color: bisque;
+    padding:  5px;
+    border: none;
+    cursor: pointer;
+}
+.producto-contenedor-a{
+    display: flex;
+justify-content: space-around;
+
+}
+@media(max-width:375px){
+    header{
+        height: auto;
+    
+    }
+     
+    header ul  {
+        flex-direction: column;
+     
+    }
+    #bannerbienvenida{
+        background-image:url(./multimedia/imagenes/fondo.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        padding: 75px 75px     }
+    
+        .producto-contenedor-a{
+            display: flex;
+         flex-direction: column;
+       
+    
+    }
+    .producto-contenedor{
+        display: flex;
+       flex-direction: column;
+     
+    }
+    footer{
+        color: white;
+        background-color: black;
+        font-size: 10px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .sobrenosotros p{
+        margin:auto;
+        padding:auto;
+        font-size: 25px;
+        align-items: center;
+        font-weight: bold;
+        font-size: 1.5em;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    }
+    .preguntasfrecuentes p{
+        margin: auto;
+        padding:auto;
+        font-size: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .preguntasfrecuentes ul{
+        font-family: 'Playball', cursive;
+        margin: auto;
+        border: auto;
+        padding:auto;
+        font-size: 25px;
+    }
+    
+    .trabajaconnostros input{ 
+        font-family: 'Playball', cursive;
+        font-size: 15px;
+    }
+    div a{ 
+        
+        color:black;
+        font-size: 20px ;
+        width: 150px;
+        height: 40px;
+        margin: 10px;
+        padding: 10px 20px;
+    }
+    .contenedorsucursales h2{
+    
+        background-color: black;
+         font-family: 'Playball', cursive;
+         font-size: 30px;
+         padding: auto;
+    }
+    .contenedorsucursales{
+    
+        background-image: url(./multimedia/imagenes/map.png);
+        padding: auto;
+        
+    
+    
+    
+    }
+    .contenedorsucursales ul{
+        
+        font-size: 20px ;
+        margin: 65px 70px;
+        
+        padding: auto;
+        flex-direction: column;
+      
+      
+    }
+     
+
+}
+
+
+
