@@ -322,7 +322,8 @@ div a{
 justify-content: space-around;
 
 }
-@media(max-width:875px){header{
+@media(max-width:1000px){
+    header{
     height: auto;
 
 }
