@@ -322,7 +322,7 @@ div a{
 justify-content: space-around;
 
 }
-@media(max-width:375px){header{
+@media(max-width:875px){header{
     height: auto;
 
 }
