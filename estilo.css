@@ -22,6 +22,7 @@ header ul  {
     list-style: none;
    
 }
+
    
    
    
@@ -39,6 +40,16 @@ header .logo a{
     color:white;
     text-decoration:none;
 }
+
+.menu-item a:active{
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    font-size: 20px;
+}
+
+
+
 #bannerbienvenida{
 background-image:url(./multimedia/imagenes/fondo.jpg);
 background-repeat: no-repeat;
@@ -53,19 +64,25 @@ padding: 250px 0px;
   margin-bottom: 30px 10px;
 }
 #bannerbienvenida p{
-    font-size: 20px 40px;
+    font-size:20px 40px;
     margin-bottom: 30px;
     width: 50px;
 
 }
 #bannerbienvenida a{
     color:black;
-    background-color: bisque;
+    background-color:rgb(153, 100, 35);
     font-size: 80px 30px;
     font-weight: 600px;
     padding: 12px 24px;
     border-radius: 8px;
     text-decoration: none;
+
+}
+#bannerbienvenida a:hover
+{
+    background-color: rgb(180, 40, 105)
+    ;
 
 }
 footer{
@@ -212,7 +229,7 @@ div a{
     font-size: 14px;
     margin: 5px 0px;
 }
-.producto-u button{
+.producto-u button:hover{
     background-color: rgb(7, 5, 5);
     color: bisque;
     padding:  5px;
@@ -254,13 +271,16 @@ div a{
     font-size: 14px;
     margin: 5px 0px;
 }
-.producto-card button{
-    background-color: rgb(7, 5, 5);
+.producto-card button:hover{
+    background-color:black;
     color: bisque;
     padding:  5px;
     border: none;
     cursor: pointer;
 }
+
+
+
 
 
    
@@ -290,8 +310,8 @@ div a{
     font-size: 14px;
     margin: 5px 0px;
 }
-.producto-s button{
-    background-color: rgb(7, 5, 5);
+.producto-s button:hover{
+    background-color: rgb(15, 15, 13);
     color: bisque;
     padding:  5px;
     border: none;
@@ -302,107 +322,103 @@ div a{
 justify-content: space-around;
 
 }
-@media(max-width:875px){
-    header{
-        height: auto;
-    
-    }
-     
-    header ul  {
-        flex-direction: column;
-     
-    }
-    #bannerbienvenida{
-        background-image:url(./multimedia/imagenes/fondo.jpg);
-        background-repeat: no-repeat;
-        background-size:cover;
-        padding: 75px 75px     }
-    
-        .producto-contenedor-a{
-            display: flex;
-         flex-direction: column;
-       
-    
-    }
-    .producto-contenedor{
-        display: flex;
-       flex-direction: column;
-     
-    }
-    footer{
-        color: white;
-        background-color: black;
-        font-size: 10px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
-    .sobrenosotros p{
-        margin:auto;
-        padding:auto;
-        font-size: 25px;
-        align-items: center;
-        font-weight: bold;
-        font-size: 1.5em;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
-    }
-    .preguntasfrecuentes p{
-        margin: auto;
-        padding:auto;
-        font-size: 20px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
-    .preguntasfrecuentes ul{
-        font-family: 'Playball', cursive;
-        margin: auto;
-        border: auto;
-        padding:auto;
-        font-size: 25px;
-    }
-    
-    .trabajaconnostros input{ 
-        font-family: 'Playball', cursive;
-        font-size: 15px;
-    }
-    div a{ 
-        
-        color:black;
-        font-size: 20px ;
-        width: 150px;
-        height: 40px;
-        margin: 10px;
-        padding: 10px 20px;
-    }
-    .contenedorsucursales h2{
-    
-        background-color: black;
-         font-family: 'Playball', cursive;
-         font-size: 30px;
-         padding: auto;
-    }
-    .contenedorsucursales{
-    
-        background-image: url(./multimedia/imagenes/map.png);
-        padding: auto;
-        
-    
-    
-    
-    }
-    .contenedorsucursales ul{
-        
-        font-size: 20px ;
-        margin: 65px 70px;
-        
-        padding: auto;
-        flex-direction: column;
-      
-      
-    }
-     
+@media(max-width:375px){header{
+    height: auto;
 
 }
+ 
+header ul  {
+    flex-direction: column;
+ 
+}
+#bannerbienvenida{
+    background-image:url(./multimedia/imagenes/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 75px 75px     }
+
+    .producto-contenedor-a{
+        display: flex;
+     flex-direction: column;
+   
+
+}
+.producto-contenedor{
+    display: flex;
+   flex-direction: column;
+ 
+}
+footer{
+    color: white;
+    background-color: black;
+    font-size: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.sobrenosotros p{
+    margin:auto;
+    padding:auto;
+    font-size: 25px;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.preguntasfrecuentes p{
+    margin: auto;
+    padding:auto;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.preguntasfrecuentes ul{
+    font-family: 'Playball', cursive;
+    margin: auto;
+    border: auto;
+    padding:auto;
+    font-size: 25px;
+}
+
+.trabajaconnostros input{ 
+    font-family: 'Playball', cursive;
+    font-size: 15px;
+}
+div a{ 
+    
+    color:black;
+    font-size: 20px ;
+    width: 150px;
+    height: 40px;
+    margin: 10px;
+    padding: 10px 20px;
+}
+.contenedorsucursales h2{
+
+    background-color: black;
+     font-family: 'Playball', cursive;
+     font-size: 30px;
+     padding: auto;
+}
+.contenedorsucursales{
+
+    background-image: url(./multimedia/imagenes/map.png);
+    padding: auto;
+    
 
 
 
+}
+.contenedorsucursales ul{
+    
+    font-size: 20px ;
+    margin: 65px 70px;
+    
+    padding: auto;
+    flex-direction: column;
+  
+  
+}
+
+}
+  
