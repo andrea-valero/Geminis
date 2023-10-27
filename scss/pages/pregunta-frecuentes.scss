@@ -1,0 +1,19 @@
+.preguntasfrecuentes p{
+    margin: auto;
+    padding:auto;
+    font-size: 40px;
+    font-family:$tipografia-secundaria;
+}
+.preguntasfrecuentes ul{
+    font-family: $tipografia-primaria;
+    margin: auto;
+    border: auto;
+    padding:auto;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column
+    ;
+}
+.preguntasfrecuentes{
+background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(84, 83, 87), rgb(224, 224, 240));
+}
