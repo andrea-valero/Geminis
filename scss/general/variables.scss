@@ -1,2 +1,29 @@
 $color-primario:black;
 $color-secundario:white;
+
+@mixin tamañoboton($tamanio){
+    @if $tamanio == medium{
+        padding: 12px 24px;
+        font-size: 16px;
+    }
+    @else if $tamanio == large{
+        padding: 20px 30px;
+        border-radius: 8px;
+    }
+
+}
+.boton-primario{
+    background-color: rgb(255, 0, 187);
+    color: rgb(24, 28, 24);
+    @include tamañoboton("medium");
+   
+}
+.boton-secundario{   
+     background-color:black;
+    @include tamañoboton ("large");
+    a:hover{
+    background-color:green; 
+}
+
+}
+

@@ -3,6 +3,22 @@
   padding: 0px;
 }
 
+.boton-primario {
+  background-color: rgb(255, 0, 187);
+  color: rgb(24, 28, 24);
+  padding: 12px 24px;
+  font-size: 16px;
+}
+
+.boton-secundario {
+  background-color: black;
+  padding: 20px 30px;
+  border-radius: 8px;
+}
+.boton-secundario a:hover {
+  background-color: green;
+}
+
 header {
   background-color: black;
   height: 75px;
@@ -66,12 +82,8 @@ ul {
 }
 
 a {
-  text-decoration: none;
-  border-radius: 8px;
-  background-color: black;
   color: white;
-  font-size: 30px;
-  font-family: "Playball", cursive;
+  text-decoration: none;
 }
 
 .preguntasfrecuentes p {
@@ -137,11 +149,6 @@ p {
 
 input {
   padding: 10px 10px;
-}
-
-button:hover {
-  background-color: black;
-  color: white;
 }
 
 /*# sourceMappingURL=estilo.css.map */
