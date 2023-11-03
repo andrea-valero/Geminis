@@ -4,19 +4,28 @@
 }
 
 .boton-primario {
-  background-color: rgb(255, 0, 187);
+  background-color: rgb(13, 130, 91);
   color: rgb(24, 28, 24);
   padding: 12px 24px;
   font-size: 16px;
+  cursor: pointer;
 }
 
 .boton-secundario {
   background-color: black;
   padding: 20px 30px;
   border-radius: 8px;
+  cursor: pointer;
 }
 .boton-secundario a:hover {
   background-color: green;
+}
+
+.boton-tercero {
+  background-color: rgb(13, 130, 91);
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
 }
 
 @media (max-width: 1000px) {
@@ -159,10 +168,29 @@ input {
   padding: 10px 10px;
 }
 
+.card-brazalete {
+  display: flex;
+  flex-direction: column;
+}
+
 main {
   display: flex;
   justify-content: center;
-  padding: auto;
+  padding: 100px;
+}
+
+.caja {
+  background-color: black;
+  width: 300px;
+  height: 300px;
+}
+.caja p {
+  color: white;
+  font-size: 50px;
+}
+
+.caja:hover {
+  transform: translate(50px, 50px);
 }
 
 @media (max-width: 1000px) {

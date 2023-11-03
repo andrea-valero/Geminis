@@ -5,15 +5,17 @@ $color-secundario:white;
     @if $tamanio == medium{
         padding: 12px 24px;
         font-size: 16px;
+        cursor: pointer;
     }
     @else if $tamanio == large{
         padding: 20px 30px;
         border-radius: 8px;
+        cursor: pointer;
     }
 
 }
 .boton-primario{
-    background-color: rgb(255, 0, 187);
+    background-color: rgb(13, 130, 91);
     color: rgb(24, 28, 24);
     @include tamañoboton("medium");
    
@@ -25,6 +27,14 @@ $color-secundario:white;
     background-color:green; 
 }
 }  
+ .boton-tercero{
+    background-color: rgb(13, 130, 91);
+  
+    @include tamañoboton ("medium");
+ 
+   
+
+ }
     
 
 @media(max-width:1000px){

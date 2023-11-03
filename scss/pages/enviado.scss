@@ -1,8 +1,24 @@
 main{
     display: flex;
     justify-content: center;
-    padding: auto;
+    padding: 100px;
+    
     
     
 }
+.caja{
+    background-color: $color-primario;
+   
+    width: 300px;
+    height: 300px;
     
+    p{
+        color:$color-secundario;
+        font-size: 50px;
+    }
+
+}
+.caja:hover{
+    transform: translate(50px,50px);
+}
+
