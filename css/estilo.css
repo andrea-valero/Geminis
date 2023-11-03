@@ -19,6 +19,14 @@
   background-color: green;
 }
 
+@media (max-width: 1000px) {
+  header {
+    height: auto;
+  }
+  header ul {
+    flex-direction: column;
+  }
+}
 header {
   background-color: black;
   height: 75px;
@@ -149,6 +157,21 @@ p {
 
 input {
   padding: 10px 10px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  padding: auto;
+}
+
+@media (max-width: 1000px) {
+  header {
+    height: auto;
+  }
+  header ul {
+    flex-direction: column;
+  }
 }
 
 /*# sourceMappingURL=estilo.css.map */

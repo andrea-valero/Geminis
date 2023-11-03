@@ -18,12 +18,28 @@ $color-secundario:white;
     @include tamañoboton("medium");
    
 }
-.boton-secundario{   
-     background-color:black;
+.boton-secundario{
+    background-color:black;
     @include tamañoboton ("large");
     a:hover{
     background-color:green; 
 }
+}  
+    
+
+@media(max-width:1000px){
+    header{
+        height: auto;
+    
+    }
+     
+    header ul  {
+        flex-direction: column;
+     
+    
 
 }
+
+}
+
 
