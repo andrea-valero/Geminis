@@ -2,3 +2,12 @@
     display: flex;
     flex-direction: column;
 }
+.producto{
+    height: 350px;
+    width: 450px;
+}
+button{
+    background-color:$color-primario;
+    color: $color-secundario;
+
+}

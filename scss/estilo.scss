@@ -2,6 +2,7 @@
 @import'./general/tipografia.scss';
 @import'./general/variables.scss';
 
+
 @import'./laydou/header.scss';
 @import'./laydou/footer.scss';
 
@@ -13,7 +14,6 @@
 @import'./pages/productos.scss';
 
 @import './pages/enviado.scss';
-
 @media(max-width:1000px){
     header{
         height: auto;
@@ -28,3 +28,4 @@
 }
 
 }
+

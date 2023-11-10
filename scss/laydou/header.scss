@@ -1,8 +1,11 @@
 header {
-    background-color: $color-primario;
-    height: 75px;
-    width: 100%;
-    padding: 12px 0px ;
+     background-color: $color-primario;
+     height: 75px;
+     width: 100%;
+     padding: 12px 0px ;
+
+}
+
 
     .menu-item a{
         
@@ -38,29 +41,13 @@ header {
     }
    
 
-ul{
-   display: flex;
-   flex-direction:row ;
-   list-style-type: none;
-   padding: 0px 40px;
-   margin-top: 0px 20px;
+ul{   display: flex;
+     flex-direction:row ;
+     list-style-type: none;
+     padding: 0px 40px;
+     margin-top: 0px 20px;
 
 }
 
 
-
-}
-@media (max-width:768px){
-     ul{
-          display: flex;
-          flex-direction: column;
-          
-        
-     }
-    
-  
-
-}
-    
-     
    
