@@ -40,7 +40,7 @@ header {
   text-decoration: none;
   font-size: 20px;
   padding: 0px 14px;
-  font-family: arial;
+  font-family: "Ubuntu", sans-serif;
 }
 
 .logo a {
@@ -86,7 +86,12 @@ ul {
   display: flex;
   flex-direction: row;
   list-style-type: none;
-  margin-right: 50px;
+  padding-left: 10px;
+}
+
+.iconos {
+  width: 30px;
+  height: 30px;
 }
 
 a {
@@ -104,7 +109,7 @@ a {
   margin: auto;
   padding: auto;
   font-size: 40px;
-  font-family: arial;
+  font-family: "Ubuntu", sans-serif;
 }
 
 .preguntasfrecuentes ul {
@@ -130,6 +135,7 @@ h1 {
 
 p {
   padding: 40px;
+  font-family: "Ubuntu", sans-serif;
 }
 
 .img-nosotros {
@@ -159,16 +165,29 @@ p {
   color: black;
 }
 
+.direccion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Ubuntu", sans-serif;
+}
+
 .trabajaconnostros ul {
   display: flex;
   flex-direction: column;
   font-size: 40px;
   font-family: "playball", cursive;
-  padding: 50px 50px;
 }
 
 input {
   padding: 10px 10px;
+}
+
+.trabajo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  padding: 20px 20px;
 }
 
 .card-brazalete {
@@ -184,6 +203,16 @@ input {
 button {
   background-color: black;
   color: white;
+  font-family: "playball", cursive;
+}
+
+h5 {
+  color: white;
+}
+
+p {
+  color: black;
+  font-family: "playball", cursive;
 }
 
 main {

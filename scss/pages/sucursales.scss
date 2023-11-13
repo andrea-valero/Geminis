@@ -23,3 +23,9 @@ p{
     color: $color-primario;
 
 }
+.direccion{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: $tipografia-secundaria;
+}

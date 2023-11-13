@@ -1,11 +1,23 @@
 .trabajaconnostros ul{
     display: flex;
     flex-direction: column;
+
     font-size: 40px;
     font-family: $tipografia-primaria;
-    padding: 50px 50px;
 }
-input{
-    padding: 10px 10px;
 
+input{
+    padding:10px 10px;
+   
+
+
+}
+.trabajo{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    padding: 20px 20px;
+ 
+   
+   
 }

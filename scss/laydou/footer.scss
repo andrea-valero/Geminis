@@ -4,11 +4,15 @@ footer{
     background-color: $color-primario;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-around
 }
 ul{
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    margin-right: 50px;
+  padding-left: 10px;
+}
+.iconos{
+    width: 30px;
+    height: 30px;
 }

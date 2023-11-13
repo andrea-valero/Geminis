@@ -9,5 +9,13 @@
 button{
     background-color:$color-primario;
     color: $color-secundario;
+    font-family: $tipografia-primaria;
 
+}
+h5{
+    color:$color-secundario;
+}
+p{
+    color: $color-primario;
+    font-family: $tipografia-primaria;
 }
