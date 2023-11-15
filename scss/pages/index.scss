@@ -9,6 +9,21 @@ a{
 
 
 }
+@media (max-width:1000px)  {
+  header{
+   height: auto;
+   display: flex;
+   flex-direction: column;
+
+  }
+  ul{
+    display: flex;
+    flex-direction: column;
+  }
+
+   
+
+}
 
 
  

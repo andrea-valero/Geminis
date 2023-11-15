@@ -21,3 +21,17 @@ input{
    
    
 }
+@media (max-width:1000px){   
+    body{
+        padding: 0px;
+    }
+    .trabajo{
+        display: flex;
+        flex-direction: row;
+        height: 60px;
+        width: 60px;
+    }
+
+
+}
+

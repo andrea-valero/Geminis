@@ -21,7 +21,24 @@ main{
 .caja:hover{
     transform: translate(50px,50px);
 }
+ .enviar{
+ height: 550px;
+width: 550px;
 
+ }
+ @media (max-width:1000px){   
+    body{
+        padding: 0px;
+    }
+    .enviar{
+        display: flex;
+        flex-direction: row;
+        height: 200px;
+        width: 200px;
+    }
+
+
+}
 
 
 

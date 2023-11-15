@@ -105,6 +105,17 @@ a {
   width: 100%;
 }
 
+@media (max-width: 1000px) {
+  header {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .preguntasfrecuentes p {
   margin: auto;
   padding: auto;
@@ -126,6 +137,11 @@ a {
   background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(84, 83, 87), rgb(224, 224, 240));
 }
 
+@media (max-width: 1000px) {
+  body {
+    padding: auto;
+  }
+}
 h1 {
   display: flex;
   justify-content: center;
@@ -144,6 +160,15 @@ p {
   object-fit: cover;
 }
 
+@media (max-width: 1000px) {
+  body {
+    padding: auto;
+  }
+  .img-nosotros {
+    height: 520px;
+    width: 520px;
+  }
+}
 h2 {
   display: flex;
   justify-content: center;
@@ -190,6 +215,17 @@ input {
   padding: 20px 20px;
 }
 
+@media (max-width: 1000px) {
+  body {
+    padding: 0px;
+  }
+  .trabajo {
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    width: 60px;
+  }
+}
 .card-brazalete {
   display: flex;
   flex-direction: column;
@@ -235,12 +271,20 @@ main {
   transform: translate(50px, 50px);
 }
 
+.enviar {
+  height: 550px;
+  width: 550px;
+}
+
 @media (max-width: 1000px) {
-  header {
-    height: auto;
+  body {
+    padding: 0px;
   }
-  header ul {
-    flex-direction: column;
+  .enviar {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    width: 200px;
   }
 }
 

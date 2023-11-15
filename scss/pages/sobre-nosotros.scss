@@ -6,7 +6,7 @@ h1{
 }
 p{
     padding: 40px;
-    font-family: $tipografia-secundaria;
+   font-family: $tipografia-secundaria;
    
 }
  .img-nosotros{
@@ -15,6 +15,16 @@ p{
     object-fit: cover;
  }
 
+ @media (max-width:1000px){
+    body{
+        padding:auto;
+
+    }
+    .img-nosotros{
+        height: 520px;
+        width: 520px;
+    }
+ }
  
 
    
